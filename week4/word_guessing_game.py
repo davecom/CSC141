@@ -11,15 +11,11 @@ while "".join(scrambled) != word:
     guess = input()
     guess = guess.upper()
     if guess in word:
-        letter_index = word.index(guess)
-        scrambled[letter_index] = guess
-        rest = word[(letter_index + 1):]
-        print(rest)
-        if guess in rest:
-            print("found it")
-            second_letter_index = rest.index(guess)
-            print(second_letter_index)
-            scrambled[letter_index + second_letter_index + 1] = guess
+        index = 0
+        for letter in word:
+            if letter == guess:
+                scrambled[index] = letter
+            index += 1 
     else:
         print("Not in word.")
     print("".join(scrambled))
