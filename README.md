@@ -1,5 +1,3 @@
 # CSC141
 
-Making a test change
-
-Another change
+This is the repository for class work for CSC 141.
