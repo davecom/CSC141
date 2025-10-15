@@ -1,6 +1,6 @@
 from random import randint
 
-# Flip a coin a thousand times
+# Flip a coin a million times
 # and see how many times it comes up heads
 # and express it as a percentage
 # 0 is heads

@@ -4,6 +4,7 @@ word = "tree".upper()
 #word = random.choice(words).upper()
 
 scrambled = ["_" for letter in word]
+# [____] -> "____"
 print("".join(scrambled))
 
 while "".join(scrambled) != word:

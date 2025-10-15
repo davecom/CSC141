@@ -35,7 +35,6 @@ His Super Bowl performance will take place at the Levi's Stadium on 8 February i
 
 Other recent Super Bowl half-time show performers have included Kendrick Lamar, The Weeknd and Rihanna, as well as Shakira and Jennifer Lopez.'
 """
-
 counter = {}
 words = article.split(" ")
 print(len(words))
@@ -46,5 +45,5 @@ for original_word in words:
     else:
         counter[word] = 1
 
-# print(counter)
+print(counter)
 print(len(counter))
